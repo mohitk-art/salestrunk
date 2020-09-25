@@ -3358,4 +3358,12 @@ background-size:contain;
 .service-area .area-bg::after{
     background: rgba(0, 0, 0, 0) linear-gradient(120deg, #006b7f 50%, transparent 50%) repeat scroll 0 0;
 }
+
+.stellarnav ul ul{
+    background-color: #f7a01d !important;
+}
+
+.stellarnav ul ul a{
+    color: #fff !important;
+}
 /* New Style End */
