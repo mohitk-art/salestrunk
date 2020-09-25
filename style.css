@@ -1449,7 +1449,9 @@ ul#nav li ul a,
     color: #292929;
     font-size: 30px;
     height: 60px;
-    padding-top: 15px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
@@ -1461,6 +1463,11 @@ ul#nav li ul a,
     border-color: #006b7f;
     color: #ffffff;
 }
+
+.qs-box:hover .qs-box-icon i img{
+filter: brightness(0) invert(1);
+}
+
 
 .qs-box-icon img {
     width: 50px;
@@ -3315,4 +3322,20 @@ background-size:contain;
     font-weight: 600;
     text-align: center;
 }
+
+.quality-area .area-bg, .affordable-area .area-bg{
+    background-image: url(./img/check-quality.jpg);
+    background-color: #06070c;
+    background-size: contain;
+    background-position: left;
+}
+
+.affordable-area{
+    padding: 69px 0;
+}
+
+.affordable-area .area-bg{
+    background-image: url(./img/affordable.jpg);
+}
+
 /* New Style End */
