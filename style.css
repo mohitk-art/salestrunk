@@ -3331,7 +3331,7 @@ background-size:contain;
 }
 
 .affordable-area{
-    padding: 45px 0;
+    padding: 25px 0;
 }
 
 .affordable-area .area-bg{
@@ -3339,4 +3339,8 @@ background-size:contain;
     background-color: #012426;
 }
 
+
+.service-area .area-bg{
+    background-image: url(./img/service.jpg);
+}
 /* New Style End */
