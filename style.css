@@ -3331,11 +3331,12 @@ background-size:contain;
 }
 
 .affordable-area{
-    padding: 69px 0;
+    padding: 45px 0;
 }
 
 .affordable-area .area-bg{
     background-image: url(./img/affordable.jpg);
+    background-color: #012426;
 }
 
 /* New Style End */
