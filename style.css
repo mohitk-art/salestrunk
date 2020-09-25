@@ -3356,7 +3356,11 @@ background-size:contain;
 
 
 .service-area .area-bg::after{
-    background: rgba(0, 0, 0, 0) linear-gradient(120deg, #006b7f 50%, transparent 50%) repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) linear-gradient(120deg, #e5eff6 50%, transparent 50%) repeat scroll 0 0;
+    opacity: 1;
+}
+.service-area .video-area-popup{
+    color:#292929;
 }
 
 .stellarnav ul ul{
