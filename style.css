@@ -3251,6 +3251,10 @@ label.mt10.valid {
     margin-bottom: 30px !important;
 }
 
+.w-100{
+    width:100%;
+}
+
 
 .brands{
     padding-top:30px;
@@ -3323,7 +3327,7 @@ background-size:contain;
     text-align: center;
 }
 
-.quality-area .area-bg, .affordable-area .area-bg{
+.quality-area .area-bg, .affordable-area .area-bg, .service-area .area-bg{
     background-image: url(./img/check-quality.jpg);
     background-color: #06070c;
     background-size: contain;
@@ -3331,7 +3335,7 @@ background-size:contain;
 }
 
 .affordable-area{
-    padding: 25px 0;
+    padding: 50px 0;
 }
 
 .affordable-area .area-bg{
@@ -3340,7 +3344,18 @@ background-size:contain;
 }
 
 
+.service-area{
+    padding: 69px;
+}
+
 .service-area .area-bg{
     background-image: url(./img/service.jpg);
+    background-position: right;
+    background-color:#0a343b;
+}
+
+
+.service-area .area-bg::after{
+    background: rgba(0, 0, 0, 0) linear-gradient(120deg, #006b7f 50%, transparent 50%) repeat scroll 0 0;
 }
 /* New Style End */
